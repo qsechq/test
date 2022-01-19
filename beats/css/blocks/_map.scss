@@ -1,0 +1,15 @@
+.section__map{
+  background: url("../img/map.png") center center no-repeat;
+  background-size:  cover;
+  position: relative;
+  margin-bottom: 5.375rem;
+  
+}
+
+.container--map{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
