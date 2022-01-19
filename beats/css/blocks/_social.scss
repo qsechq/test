@@ -1,0 +1,21 @@
+.social__link{
+  height: 1.875rem;
+  width:1.875rem;
+  display: block;
+}
+
+.social__list{
+  display: flex;
+}
+.social__item{
+    margin-right: 0.625rem;
+  &:last-child{
+    margin-right: 0;
+  }
+  }
+
+@each $social in (vk, fb, in, tg){
+  .social__link--#{$social}{
+    background: url("../img/#{$social}.svg") center center no-repeat;
+  }
+}
